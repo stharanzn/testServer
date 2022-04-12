@@ -3,7 +3,7 @@ const path = require('path');
 const notFound = require('./middlewares/notFound');
 const app = express()
 
-PORT = 8000;
+PORT = process.env.PORT || 5000;
 
 
 app.use(express.static('./public'))
