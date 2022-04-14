@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="firstUser">
+
+        <video id="firstPlayer" controls muted autoplay></video>
+
+        <button onclick="firstSnap()" >Snapshot</button>
+
+        <div class="firstCanvas">
+            <h6>Captured snapshot</h6>
+            <canvas></canvas>
+
+        </div>
+    </div>
+
+    
+
+
+
+    <div class="secondUser">
+
+        <video id="secondPlayer" controls muted autoplay></video>
+
+        <button onclick="secondSnap()" >Snapshot</button>
+
+        <div class="secondCanvas">
+            <h6>Captured snapshot</h6>
+            <canvas></canvas>
+
+        </div>
+
+        
+
+    </div>
+
+    <script src="../logics/vidStream.js"></script>
+    
+    
+</body>
+</html>

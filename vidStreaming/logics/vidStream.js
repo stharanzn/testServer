@@ -41,3 +41,4 @@ window.navigator.mediaDevices.getUserMedia({ video: true, audio: true })
     .catch(error => {
         alert('You have to enable the mic and the camera');
     });
+
